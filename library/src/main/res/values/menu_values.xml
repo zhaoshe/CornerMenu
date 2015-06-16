@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="default_desc"></string>
+
+	<declare-styleable name="CornerStaightMenu">
+        <!-- 主按钮在哪个角落 -->
+		<attr name="menu_gravity">
+			<enum name="left_top" value="51"/>
+			<enum name="left_bottom" value="83"/>
+			<enum name="right_top" value="53"/>
+			<enum name="right_bottom" value="85"/>
+		</attr>
+
+        <!-- 按钮之间的间距 -->
+		<attr name="item_gap" format="dimension"/>
+		<attr name="item_gap_horizontal" format="dimension"/>
+		<attr name="item_gap_vertical" format="dimension"/>
+
+        <!-- 主按钮的图片 -->
+		<attr name="menu_img_src" format="reference"/>
+
+	</declare-styleable>
+
+</resources>
